@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fafaf9;
+  color: #1c1917;
+}
+
+.dark body {
+  background-color: #0c0a09;
+  color: #fafaf9;
+}
+
+.font-serif {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
